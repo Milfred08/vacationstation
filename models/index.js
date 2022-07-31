@@ -12,7 +12,7 @@ Cart.belongsTo(User);
     // await Product.sync();
     await Cart.sync();
   } catch (error) {
-    console.error("?", error);
+    console.error("!!! DO YOU ACTUALLY HAVE A DATABASE?", error);
   }
 })();
 
